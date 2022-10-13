@@ -1,5 +1,8 @@
 # Google Image Scraper
-Scrape Images off Google Search Results.
+Scrape Images from Google Search Results.
+
+## Demo
+
 
 ## Pre-requisites:
 1. Google Chrome
