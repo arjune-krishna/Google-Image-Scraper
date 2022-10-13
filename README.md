@@ -34,7 +34,7 @@ To use it, define your desired parameters in main.py and run through the command
 ```
 python main.py
 ```
-Note: The max number of images that can be scraped at once is 200-300. You might faces errors if you try to scrape more than this. 
+<b>Note:</b> The max number of images that can be scraped at once is 200-300. You might faces errors if you try to scrape more than this. 
 In order to scrape more than 200-300 images, use multiple similar keywords.
 
 
