@@ -6,8 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
-import time, bs4, sys, requests, io, os
-from pyfiglet import figlet_format
+import time, sys, requests, io
 from colorama import Fore, Back, Style
 from PIL import Image
 import PIL
@@ -99,7 +98,7 @@ time.sleep(1)
 print("Scrolling Results....")
 
 #Chome Drive Initialization
-chrome_executable = Service(executable_path="C:\\Users\\Volted User\\Desktop\\Google-Image-Scraper\\chromedriver.exe")
+chrome_executable = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=chrome_executable, options=options)
 
 #google images url
