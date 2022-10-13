@@ -2,7 +2,7 @@
 Scrape Images from Google Search Results.
 
 ## Demo
-
+![](https://github.com/arjune-krishna/Google-Image-Scraper/blob/main/demo.gif)
 
 ## Pre-requisites:
 1. Google Chrome
